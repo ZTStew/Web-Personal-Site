@@ -1,5 +1,30 @@
 * {
+  margin: 0px;
+  padding: 0px;
   border-style: solid;
   border-width: 2px;
   border-color: red;
+}
+.body {
+}
+
+#right-half {
+  display: inline-block;
+  width: calc(25% - 8px);
+  height: 100vh;
+  vertical-align: top;
+}
+#left-half {
+  display: inline-block;
+  width: calc(75% - 6px);
+  height: 100vh;
+  vertical-align: top;
+}
+#banner {
+  width: 100%;
+  height: 15vh;
+}
+#profile-image {
+  width: 100%;
+  height: 40vh;
 }
